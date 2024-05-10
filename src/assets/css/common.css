@@ -1,0 +1,48 @@
+/* css自带的定义变量 */
+:root {
+  --primary-color: #ff9854;
+  
+  /* search搜索icon的颜色 */
+  --van-search-left-icon-color: var(--primary-color)!important;
+
+  --van-primary-color: var(--primary-color);
+}
+
+/* 控制tabbar组件的隐藏 */
+.istabbar{
+  /* 覆盖tabbar */
+  height: 100vh;
+  position: relative;
+  z-index: 9;
+  background: #fff;
+  /* 滑动的时候，在当前区域滑动，不是到页面滑动了 */
+  overflow-y: auto;
+}
+
+/* 首页-多个-上下部分的分隔线 */
+.bottom-gray-line {
+  border-bottom: 1px solid #f8f9f9;
+}
+
+/* 控制icon图标位置 */
+.icon_check {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: url(../img/detail/icon_check.png) 0 0 / 100% 100%;
+}
+
+.detail_icon_chat {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background: url(../img/detail/icon_chat.png) 0 0 / 100% 100%;
+}
+
+.detail_icon_order {
+  display: block;
+  width: 14px;
+  height: 17px;
+  background: url(../img/detail/icon_order.png) 0 0 / 100% 100%;
+}
+
